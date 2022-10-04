@@ -7,7 +7,7 @@ type veiculo struct {
 		cor string
 	}
 	type caminhonete struct {
-		tracãonasquatro bool
+		tracaonasquatro bool
 		veiculo
 	}
 	type sedan struct {
@@ -18,16 +18,16 @@ type veiculo struct {
 func main() {
 	carrodotio := sedan{
 		true, veiculo{4, "preto"}}
-	fubicadovô := caminhonete{
+	fubicadovo := caminhonete{
 		veiculo:veiculo{
 			8,
 			"ferrugem",
 		},
-	tracãonasquatro: false,
+	tracaonasquatro: false,
 		}
 		log.Println(carrodotio)
-		log.Println(fubicadovô)
+		log.Println(fubicadovo)
 		log.Println(carrodotio.cor)
-		log.Println(fubicadovô.tracãonasquatro)
+		log.Println(fubicadovo.tracaonasquatro)
 	}
 
